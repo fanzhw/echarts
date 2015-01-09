@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<!--[if lt IE 9]>
+      <script src="/assets/html5.js"></script>
+      <script src="/assets/respond.js"></script>
+    <![endif]-->
+<script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="../bootstrap/js/bootstrap.js"></script>
+</head>
+<body>
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+    	<div class="row">
+            <div class="col-md-3">
+                <p class="logo">后勤服务系统</p>    
+            </div>
+            <div class="col-md-6">
+                <ul class="nav nav-pills nav-head">
+                    <li class='active'><a href="01餐饮服务-01菜品类别列表.html">餐饮服务</a></li>
+                    <li ><a href="02订购管理-01商品类别列表.html">订购管理</a></li>
+                    <li><a href="03微服务.html">微服务</a></li>                    
+                    <li><a href="04部门管理.html">部门管理</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+            	<p class="text-right pt20">当前用户：admin 超级管理员 <a href="00登录.html">退出</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-2">
+        	<ul class="side_nav">
+            	<li><a href="#" class="side_nav_on">省局</a>
+                	<ul>
+                        <li><a href="01餐饮服务-01菜品类别列表.html">菜品类别列表</a> </li>
+                        <li><a href="01餐饮服务-02菜品列表.html">菜品列表</a> </li>
+                        <li class="active"><a href="01餐饮服务-03菜单列表.html">菜单列表</a> </li>
+                        <li><a href="01餐饮服务-04订餐列表.html">订餐列表</a> </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-10">
+            <div class="row border_bottom">
+            	<div class="col-md-6">
+                <dl class="dl-horizontal menu_top_02 mb0">
+                    <dt>供餐时间：</dt>
+                    <dd><input type="text"><br />
+                        <ul class="list-unstyled list-inline mb0 c_green">
+                            <li>2014-10-30</li>
+                            <li>2014-10-31</li>
+                            <li>2014-11-01</li>
+                        </ul>
+                    </dd>
+            	</dl>
+            </div>
+            <p class="col-md-4 pull-right text-right"><button class="btn btn-primary mr10" data-toggle="modal" data-target="#myModal">添加</button><button class="btn btn-danger">删除</button></p>
+            </div>
+            <div class="row">
+            	<div class="col-md-2 text-right"><strong>早餐菜单</strong></div>
+                <div class="col-md-10">
+                	<table class="table table-bordered">
+                    	<tr>
+                        	<th><input type="checkbox"> 全选</th>
+                            <th>序号</th>
+                            <th>菜名</th>
+                            <th>单价</th>
+                            <th>介绍</th>
+                        </tr>
+                        <tr>
+                        	<td><input type="checkbox"></td>
+                            <td>1</td>
+                            <td>油条</td>
+                            <td>￥1.5</td>
+                            <td>营养均衡</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="row">
+            	<div class="col-md-2 text-right"><strong>午餐菜单</strong></div>
+                <div class="col-md-10">
+                	<table class="table table-bordered">
+                    	<tr>
+                        	<th><input type="checkbox"> 全选</th>
+                            <th>序号</th>
+                            <th>菜名</th>
+                            <th>单价</th>
+                            <th>介绍</th>
+                        </tr>
+                        <tr>
+                        	<td><input type="checkbox"></td>
+                            <td>1</td>
+                            <td>油条</td>
+                            <td>￥1.5</td>
+                            <td>营养均衡</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="row">
+            	<div class="col-md-2 text-right"><strong>晚餐菜单</strong></div>
+                <div class="col-md-10">
+                	<table class="table table-bordered">
+                    	<tr>
+                        	<th><input type="checkbox"> 全选</th>
+                            <th>序号</th>
+                            <th>菜名</th>
+                            <th>单价</th>
+                            <th>介绍</th>
+                        </tr>
+                        <tr>
+                        	<td><input type="checkbox"></td>
+                            <td>1</td>
+                            <td>油条</td>
+                            <td>￥1.5</td>
+                            <td>营养均衡</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="row">
+            	<div class="col-md-2 text-right"><strong>面点</strong></div>
+                <div class="col-md-10">
+                	<table class="table table-bordered">
+                    	<tr>
+                        	<th><input type="checkbox"> 全选</th>
+                            <th>序号</th>
+                            <th>菜名</th>
+                            <th>单价</th>
+                            <th>介绍</th>
+                        </tr>
+                        <tr>
+                        	<td><input type="checkbox"></td>
+                            <td>1</td>
+                            <td>油条</td>
+                            <td>￥1.5</td>
+                            <td>营养均衡</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="row">
+            	<div class="col-md-2 text-right"><strong>点菜菜单</strong></div>
+                <div class="col-md-10">
+                	<table class="table table-bordered">
+                    	<tr>
+                        	<th><input type="checkbox"> 全选</th>
+                            <th>序号</th>
+                            <th>菜名</th>
+                            <th>菜品类别</th>
+                            <th>单价</th>
+                            <th>介绍</th>
+                        </tr>
+                        <tr>
+                        	<td><input type="checkbox"></td>
+                            <td>1</td>
+                            <td>油条</td>
+                            <td>荤菜</td>
+                            <td>￥1.5</td>
+                            <td>营养均衡</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        <p class="text-center pt20"><a href="01餐饮服务-03菜单列表.html" class="btn btn-warning btn-submit">提交</a></p>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 添加类别弹出-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">菜品列表</h4>
+      </div>
+      <div class="modal-body">
+      	<dl class="dl-horizontal menu_top">
+        	<dt>供餐时间：</dt>
+            <dd><input type="text"><br />
+            	<ul class="list-unstyled list-inline mb0 c_green">
+                	<li>2014-10-30</li>
+                    <li>2014-10-31</li>
+                    <li>2014-11-01</li>
+                </ul>
+            </dd>
+            <dt>菜单区域选择：</dt>
+            <dd class="mb0">
+            	<ul class="list-unstyled list-inline mb0">
+                	<li><input type="checkbox">早餐</li>
+                    <li><input type="checkbox">午餐</li>
+                    <li><input type="checkbox">晚餐</li>
+                    <li><input type="checkbox">面点</li>
+                    <li><input type="checkbox">点菜</li>
+                </ul>
+            </dd>
+        </dl>
+        <ul class="list-unstyled list-inline list_dish">
+            <li><input type="checkbox">番茄炒蛋</li>
+            <li><input type="checkbox">红烧鱼</li>
+            <li><input type="checkbox">土豆丝</li>
+            <li><input type="checkbox">丝瓜蛋汤</li>
+            <li><input type="checkbox">油腻茄子</li>
+            <li><input type="checkbox">火腿炒黄瓜</li>
+            <li><input type="checkbox">南瓜粥</li>
+            <li><input type="checkbox">上汤娃娃菜</li>
+            <li><input type="checkbox">红烧鱼</li>
+            <li><input type="checkbox">酸辣土豆丝</li>
+            <li><input type="checkbox">丝瓜蛋汤</li>
+            <li><input type="checkbox">上汤西兰花</li>
+            <li><input type="checkbox">韭菜炒蛋</li>
+            <li><input type="checkbox">酸辣土豆丝</li>
+            <li><input type="checkbox">丝瓜蛋汤</li>
+            <li><input type="checkbox">红烧鱼</li>
+            <li><input type="checkbox">酸辣土豆丝</li>
+            <li><input type="checkbox">丝瓜蛋汤</li>
+            <li><input type="checkbox">油腻茄子</li>
+            <li><input type="checkbox">火腿炒黄瓜</li>
+            <li><input type="checkbox">南瓜粥</li>
+            <li><input type="checkbox">上汤娃娃菜</li>
+            <li><input type="checkbox">丝瓜蛋汤</li>
+            <li><input type="checkbox">油腻茄子</li>
+            <li><input type="checkbox">火腿炒黄瓜</li>
+            <li><input type="checkbox">南瓜粥</li>
+            <li><input type="checkbox">上汤娃娃菜</li>
+            <li><input type="checkbox">红烧鱼</li>
+            <li><input type="checkbox">酸辣土豆丝</li>
+            <li><input type="checkbox">丝瓜蛋汤</li>
+            <li><input type="checkbox">上汤西兰花</li>
+            <li><input type="checkbox">韭菜炒蛋</li>
+            <li><input type="checkbox">酸辣土豆丝</li>
+            <li><input type="checkbox">丝瓜蛋汤</li>
+            <li><input type="checkbox">红烧鱼</li>
+            <li><input type="checkbox">酸辣土豆丝</li>
+            <li><input type="checkbox">丝瓜蛋汤</li>
+            <li><input type="checkbox">油腻茄子</li>
+            
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+        <button type="button" class="btn btn-primary">确定</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

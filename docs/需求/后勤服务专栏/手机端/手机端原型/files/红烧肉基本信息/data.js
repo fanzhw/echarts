@@ -1,0 +1,443 @@
+﻿$axure.loadCurrentPage({
+  "url":"红烧肉基本信息.html",
+  "generationDate":new Date(1413956469607.64),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"8d31d2976dd4461da110e5da25526ffc",
+    "type":"Axure:Page",
+    "name":"红烧肉基本信息",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"d92589f735a442b281893fa9d30669ee",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'应用字体 Regular', '应用字体'",
+            "baseStyle":"627587b6038d43cca051c114ac41ad32",
+            "location":{
+              "x":240,
+              "y":-11},
+            "size":{
+              "width":450,
+              "height":731}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"7fdf8939eec748119139185ef846eef3",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'应用字体 Regular', '应用字体'",
+                "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                "location":{
+                  "x":240,
+                  "y":-11},
+                "size":{
+                  "width":450,
+                  "height":731}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/后勤服务/u0.png"}},
+{
+          "id":"1001dc0a85d14a8fbca53f2f6e2fcc3a",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'应用字体 Bold', '应用字体'",
+            "fontWeight":"700",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFFFFFF,
+              "opacity":1},
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF666666},
+            "location":{
+              "x":306,
+              "y":108},
+            "size":{
+              "width":320,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"b808f8b9983748bf9aaa39c249a3a1d0",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'应用字体 Bold', '应用字体'",
+                "fontWeight":"700",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFFFF,
+                  "opacity":1},
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF666666},
+                "location":{
+                  "x":306,
+                  "y":108},
+                "size":{
+                  "width":320,
+                  "height":50}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/后勤服务/u2.png"}},
+{
+          "id":"f14e4813522041f29bad872ec2b6e9e2",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'应用字体 Regular', '应用字体'",
+            "baseStyle":"627587b6038d43cca051c114ac41ad32",
+            "location":{
+              "x":316,
+              "y":118},
+            "size":{
+              "width":46,
+              "height":31}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"7540bf1ee6f74bc583576c109626ee1c",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'应用字体 Regular', '应用字体'",
+                "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                "location":{
+                  "x":316,
+                  "y":118},
+                "size":{
+                  "width":46,
+                  "height":31}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open 点菜 in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"点菜.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/后勤服务/u4.png"}},
+{
+          "id":"9907023bd12f4a7c83bd4d42e835b5af",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'应用字体 Regular', '应用字体'",
+            "baseStyle":"627587b6038d43cca051c114ac41ad32",
+            "location":{
+              "x":576,
+              "y":118},
+            "size":{
+              "width":44,
+              "height":31}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"4945fdf7a7684cc68bbf34c4de08f9d1",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'应用字体 Regular', '应用字体'",
+                "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                "location":{
+                  "x":576,
+                  "y":118},
+                "size":{
+                  "width":44,
+                  "height":31}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/菜单查询/u38.png"}},
+{
+          "id":"58004ad0e94a470aaf2591679a2e27be",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'应用字体 Regular', '应用字体'",
+            "location":{
+              "x":316,
+              "y":168},
+            "size":{
+              "width":50,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"4ede4117d71a43c6ab0201e95253c27c",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'应用字体 Regular', '应用字体'",
+                "location":{
+                  "x":316,
+                  "y":168},
+                "size":{
+                  "width":50,
+                  "height":50}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/红烧肉基本信息/u8.jpg"}},
+{
+          "id":"7387836a8c964f988ed0208ca7daaa15",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'应用字体 Bold', '应用字体'",
+            "fontSize":"11px",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFFFFFF,
+              "opacity":1},
+            "baseStyle":"627587b6038d43cca051c114ac41ad32",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF0099FF},
+            "location":{
+              "x":376,
+              "y":168},
+            "size":{
+              "width":84,
+              "height":50},
+            "borderWidth":"-1",
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFF00CCFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"3e0a759ba86b4a98a5c8b25c88aed823",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'应用字体 Bold', '应用字体'",
+                "fontSize":"11px",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFFFF,
+                  "opacity":1},
+                "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF0099FF},
+                "location":{
+                  "x":376,
+                  "y":168},
+                "size":{
+                  "width":84,
+                  "height":50},
+                "borderWidth":"-1",
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFF00CCFF}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/红烧肉基本信息/u10.png"}},
+{
+          "id":"6cf19bb56aa44926872a5e373909c5b7",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'应用字体 Regular', '应用字体'",
+            "horizontalAlignment":"left",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF99FF99},
+            "location":{
+              "x":316,
+              "y":229},
+            "size":{
+              "width":304,
+              "height":51}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"76f860d492544bf895e09513730d8d71",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'应用字体 Regular', '应用字体'",
+                "horizontalAlignment":"left",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF99FF99},
+                "location":{
+                  "x":316,
+                  "y":229},
+                "size":{
+                  "width":304,
+                  "height":51}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/红烧肉基本信息/u12.png"}},
+{
+          "id":"28707e72cd3a4884a3b0281ee04c0f92",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'应用字体 Bold', '应用字体'",
+            "fontSize":"11px",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFFFFFF,
+              "opacity":1},
+            "baseStyle":"627587b6038d43cca051c114ac41ad32",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF0099FF},
+            "location":{
+              "x":480,
+              "y":168},
+            "size":{
+              "width":84,
+              "height":50},
+            "borderWidth":"-1",
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFF00CCFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"5b1e0c9c889640debfcec21fce53f6a6",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'应用字体 Bold', '应用字体'",
+                "fontSize":"11px",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFFFF,
+                  "opacity":1},
+                "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF0099FF},
+                "location":{
+                  "x":480,
+                  "y":168},
+                "size":{
+                  "width":84,
+                  "height":50},
+                "borderWidth":"-1",
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFF00CCFF}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/红烧肉基本信息/u10.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "d92589f735a442b281893fa9d30669ee":{
+      "scriptId":"u0"},
+    "7fdf8939eec748119139185ef846eef3":{
+      "scriptId":"u1"},
+    "1001dc0a85d14a8fbca53f2f6e2fcc3a":{
+      "scriptId":"u2"},
+    "b808f8b9983748bf9aaa39c249a3a1d0":{
+      "scriptId":"u3"},
+    "f14e4813522041f29bad872ec2b6e9e2":{
+      "scriptId":"u4"},
+    "7540bf1ee6f74bc583576c109626ee1c":{
+      "scriptId":"u5"},
+    "9907023bd12f4a7c83bd4d42e835b5af":{
+      "scriptId":"u6"},
+    "4945fdf7a7684cc68bbf34c4de08f9d1":{
+      "scriptId":"u7"},
+    "58004ad0e94a470aaf2591679a2e27be":{
+      "scriptId":"u8"},
+    "4ede4117d71a43c6ab0201e95253c27c":{
+      "scriptId":"u9"},
+    "7387836a8c964f988ed0208ca7daaa15":{
+      "scriptId":"u10"},
+    "3e0a759ba86b4a98a5c8b25c88aed823":{
+      "scriptId":"u11"},
+    "6cf19bb56aa44926872a5e373909c5b7":{
+      "scriptId":"u12"},
+    "76f860d492544bf895e09513730d8d71":{
+      "scriptId":"u13"},
+    "28707e72cd3a4884a3b0281ee04c0f92":{
+      "scriptId":"u14"},
+    "5b1e0c9c889640debfcec21fce53f6a6":{
+      "scriptId":"u15"}}});

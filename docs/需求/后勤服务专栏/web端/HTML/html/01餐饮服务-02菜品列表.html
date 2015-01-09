@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<!--[if lt IE 9]>
+      <script src="/assets/html5.js"></script>
+      <script src="/assets/respond.js"></script>
+    <![endif]-->
+<script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="../bootstrap/js/bootstrap.js"></script>
+</head>
+<body>
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+    	<div class="row">
+            <div class="col-md-3">
+                <p class="logo">后勤服务系统</p>    
+            </div>
+            <div class="col-md-6">
+                <ul class="nav nav-pills nav-head">
+                    <li class='active'><a href="01餐饮服务-01菜品类别列表.html">餐饮服务</a></li>
+                    <li ><a href="02订购管理-01商品类别列表.html">订购管理</a></li>
+                    <li><a href="03微服务.html">微服务</a></li>                    
+                    <li><a href="04部门管理.html">部门管理</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+            	<p class="text-right pt20">当前用户：admin 超级管理员 <a href="00登录.html">退出</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-2">
+        	<ul class="side_nav">
+            	<li><a href="#" class="side_nav_on">省局</a>
+                	<ul>
+                        <li><a href="01餐饮服务-01菜品类别列表.html">菜品类别列表</a> </li>
+                        <li class="active"><a href="01餐饮服务-02菜品列表.html">菜品列表</a> </li>
+                        <li><a href="01餐饮服务-03菜单列表.html">菜单列表</a> </li>
+                        <li><a href="01餐饮服务-04订餐列表.html">订餐列表</a> </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-10">
+            <div class="row">
+            	<h4 class="col-md-2"><strong>菜品列表</strong></h4>
+                <p class="col-md-4 pull-right text-right"><button class="btn btn-primary" data-toggle="modal" data-target="#myModal">添加</button><button class="btn btn-danger col-xs-offset-1">删除</button></p>
+            </div>
+            <table class="table comtable">
+            	<tr>
+                	<th width="100" class="text-center"><input type="checkbox"> 全选</th>
+                    <th width="100" class="text-center">序号</th>
+                    <th class="text-center">菜品</th>
+                    <th width="100" class="text-center">菜品类别</th>
+                    <th class="text-center">单价</th>
+                    <th>商品描述</th>
+                    <th width="130" class="text-center">操作</th>
+                </tr>
+                <tr>
+                	<td class="text-center"><input type="checkbox"></td>
+                    <td class="text-center">1</td>
+                    <td class="text-center">红烧肉</td>
+                    <td class="text-center">早餐</td>
+                    <td class="text-center"><span class="c_red">￥5.0</span></td>
+                    <td>-</td>
+                    <td class="text-center"><button type="button" class="btn btn-info btn-sm mr10">编辑</button> <button type="button" class="btn btn-default btn-sm">删除</button></td>
+                </tr>
+                <tr>
+                	<td class="text-center"><input type="checkbox"></td>
+                    <td class="text-center">2</td>
+                    <td class="text-center">红烧肉</td>
+                    <td class="text-center">早餐</td>
+                    <td class="text-center"><span class="c_red">￥5.0</span></td>
+                    <td>-</td>
+                    <td class="text-center"><button type="button" class="btn btn-info btn-sm mr10">编辑</button> <button type="button" class="btn btn-default btn-sm">删除</button></td>
+                </tr>
+                <tr>
+                	<td class="text-center"><input type="checkbox"></td>
+                    <td class="text-center">3</td>
+                    <td class="text-center">红烧肉</td>
+                    <td class="text-center">早餐</td>
+                    <td class="text-center"><span class="c_red">￥5.0</span></td>
+                    <td>-</td>
+                    <td class="text-center"><button type="button" class="btn btn-info btn-sm mr10">编辑</button> <button type="button" class="btn btn-default btn-sm">删除</button></td>
+                </tr>
+                <tr>
+                	<td class="text-center"><input type="checkbox"></td>
+                    <td class="text-center">4</td>
+                    <td class="text-center">红烧肉</td>
+                    <td class="text-center">早餐</td>
+                    <td class="text-center"><span class="c_red">￥5.0</span></td>
+                    <td>-</td>
+                    <td class="text-center"><button type="button" class="btn btn-info btn-sm mr10">编辑</button> <button type="button" class="btn btn-default btn-sm">删除</button></td>
+                </tr>
+                <tr>
+                	<td class="text-center"><input type="checkbox"></td>
+                    <td class="text-center">5</td>
+                    <td class="text-center">红烧肉</td>
+                    <td class="text-center">早餐</td>
+                    <td class="text-center"><span class="c_red">￥5.0</span></td>
+                    <td>-</td>
+                    <td class="text-center"><button type="button" class="btn btn-info btn-sm mr10">编辑</button> <button type="button" class="btn btn-default btn-sm">删除</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 添加类别弹出-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">添加菜品</h4>
+      </div>
+      <div class="modal-body">
+        <form class="form-horizontal" role="form">
+          <div class="form-group">
+            <label for="inputEmail3" class="col-sm-3 control-label">菜品序号:</label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control" id="inputEmail3" placeholder="">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputEmail3" class="col-sm-3 control-label">菜品类别：</label>
+            <div class="col-sm-6">
+              <select class="form-control">
+                  <option>荤菜</option>
+                  <option>素菜</option>
+                </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputEmail3" class="col-sm-3 control-label">菜品类别名称:</label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control" id="inputEmail3" placeholder="">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputEmail3" class="col-sm-3 control-label">单价:</label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control" id="inputEmail3" placeholder="">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputEmail3" class="col-sm-3 control-label">菜品类别介绍:</label>
+            <div class="col-sm-9">
+              <textarea class="form-control" rows="3"></textarea>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+        <button type="button" class="btn btn-primary">确定</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,177 @@
+﻿body {
+  margin:0px;
+  background-image:none;
+  position:static;
+  left:auto;
+  width:1080px;
+  margin-left:0;
+  margin-right:0;
+  text-align:left;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u0 {
+  position:absolute;
+  left:56px;
+  top:12px;
+  width:1024px;
+  height:768px;
+}
+#u0_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1024px;
+  height:768px;
+}
+#u1 {
+  position:absolute;
+  left:2px;
+  top:376px;
+  width:1020px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u2 {
+  position:absolute;
+  left:56px;
+  top:62px;
+  width:1024px;
+  height:10px;
+}
+#u2_start {
+  position:absolute;
+  left:0px;
+  top:-5px;
+  width:18px;
+  height:20px;
+}
+#u2_end {
+  position:absolute;
+  left:1007px;
+  top:-5px;
+  width:18px;
+  height:20px;
+}
+#u2_line {
+  position:absolute;
+  left:0px;
+  top:5px;
+  width:1024px;
+  height:1px;
+}
+#u3 {
+  position:absolute;
+  left:612px;
+  top:12px;
+  width:309px;
+  height:55px;
+}
+#u3_menu {
+  position:absolute;
+  left:-3px;
+  top:-3px;
+  width:315px;
+  height:61px;
+}
+#u4 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:314px;
+  height:60px;
+}
+#u5 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:155px;
+  height:55px;
+  text-align:center;
+}
+#u5_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:155px;
+  height:55px;
+}
+#u6 {
+  position:absolute;
+  left:2px;
+  top:20px;
+  width:151px;
+  word-wrap:break-word;
+}
+#u7 {
+  position:absolute;
+  left:155px;
+  top:0px;
+  width:154px;
+  height:55px;
+  text-align:center;
+}
+#u7_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:154px;
+  height:55px;
+}
+#u8 {
+  position:absolute;
+  left:2px;
+  top:20px;
+  width:150px;
+  word-wrap:break-word;
+}
+#u9 {
+  position:absolute;
+  left:60px;
+  top:42px;
+  width:200px;
+  height:25px;
+}
+#u9_input {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:200px;
+  height:25px;
+  background-image:none;
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  color:#000000;
+  text-align:left;
+  border-color:transparent;
+  outline-style:none;
+}
+#u9_input {
+  font-family:'应用字体';
+}
+#u10 {
+  position:absolute;
+  left:920px;
+  top:12px;
+  width:160px;
+  height:55px;
+}
+#u10_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:160px;
+  height:55px;
+}
+#u11 {
+  position:absolute;
+  left:2px;
+  top:20px;
+  width:156px;
+  word-wrap:break-word;
+}

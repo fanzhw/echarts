@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<!--[if lt IE 9]>
+      <script src="/assets/html5.js"></script>
+      <script src="/assets/respond.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+    	<div class="row">
+            <div class="col-md-3">
+                <p class="logo">后勤服务系统</p>    
+            </div>
+            <div class="col-md-6">
+                <ul class="nav nav-pills nav-head">
+                    <li><a href="01餐饮服务-01菜品类别列表.html">餐饮服务</a></li>
+                    <li class='active'><a href="02订购管理-01商品类别列表.html">订购管理</a></li>
+                    <li><a href="03微服务.html">微服务</a></li>                    
+                    <li><a href="04部门管理.html">部门管理</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+            	<p class="text-right pt20">当前用户：admin 超级管理员 <a href="00登录.html">退出</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-2">
+        	<ul class="side_nav">
+            	<li><a href="#" class="side_nav_on">省局</a>
+                	<ul>
+                        <li><a href="02订购管理-01商品类别列表.html">商品类别列表</a> </li>
+                        <li><a href="02订购管理-02商品清单.html">商品清单</a> </li>
+                        <li><a href="02订购管理-03商品列表.html">商品列表</a> </li>
+                        <li class="active"><a href="02订购管理-04订购列表.html">订购列表</a> </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-10">
+        	<div class="search well">
+            	<ul class="row list-inline">
+                	<li class="col-md-3">开始时间：<select class="form-control"><option>2014年9月1日</option></select></li>
+                    <li class="col-md-3">结束时间：<select class="form-control"><option>2014年9月2日</option></select></li>
+                    <li class="col-md-3">商品状态：<select class="form-control"><option>已取货</option><option>未取货</option></select></li>
+                    <li class="col-md-2"><button class="btn btn-warning">搜索</button></li>
+                </ul>
+            </div>
+            <div class="row">
+            	<h4 class="col-md-2"><strong>订购历史记录</strong></h4>
+                <p class="col-md-4 pull-right text-right"><button class="btn  btn-primary">打印所有</button><button class="btn btn-success col-xs-offset-1">打印已确认订单</button></p>
+            </div>
+            <table class="table comtable">
+            	<tr>
+                	<th width="80">姓名</th>
+                    <th width="120">订餐时间</th>
+                    <th width="120">取餐时间</th>
+                    <th width="180">菜品</th>
+                    <th width="80">总金额</th>
+                    <th width="160">备注</th>
+                    <th width="140" class="text-center">支付状态</th>
+                </tr>
+                <tr>
+                	<td>张三</td>
+                    <td>2014.09.12 <br /> 08:12</td>
+                    <td>2014.09.12 <br /> 08:12</td>
+                    <td><span class="text-success">蛋黄月饼￥ 20.0*5，<br />
+                            西湖龙井 ￥300.0*1</span></td>
+                    <td><span class="c_red">￥400</span></td>
+                    <td> - </td>
+                    <td class="text-center"><button class="btn btn-primary btn-sm">取货</button></td>
+                </tr>
+                <tr>
+                	<td>张三</td>
+                    <td>2014.09.12 <br /> 08:12</td>
+                    <td>2014.09.12 <br /> 08:12</td>
+                    <td><span class="text-success">蛋黄月饼￥ 20.0*5，<br />
+                            西湖龙井 ￥300.0*1</span></td>
+                    <td><span class="c_red">￥400</span></td>
+                    <td> - </td>
+                    <td class="text-center"><strong class="c_green">已取货</strong></td>
+                </tr>
+                <tr>
+                	<td>张三</td>
+                    <td>2014.09.12 <br /> 08:12</td>
+                    <td>2014.09.12 <br /> 08:12</td>
+                    <td><span class="text-success">蛋黄月饼￥ 20.0*5，<br />
+                            西湖龙井 ￥300.0*1</span></td>
+                    <td><span class="c_red">￥400</span></td>
+                    <td> - </td>
+                    <td class="text-center"><button class="btn btn-primary btn-sm">取货</button></td>
+                </tr>
+                <tr>
+                	<td>张三</td>
+                    <td>2014.09.12 <br /> 08:12</td>
+                    <td>2014.09.12 <br /> 08:12</td>
+                    <td><span class="text-success">蛋黄月饼￥ 20.0*5，<br />
+                            西湖龙井 ￥300.0*1</span></td>
+                    <td><span class="c_red">￥400</span></td>
+                    <td> - </td>
+                    <td class="text-center"><strong class="c_green">已取货</strong></td>
+                </tr>
+                <tr>
+                	<td>张三</td>
+                    <td>2014.09.12 <br /> 08:12</td>
+                    <td>2014.09.12 <br /> 08:12</td>
+                    <td><span class="text-success">蛋黄月饼￥ 20.0*5，<br />
+                            西湖龙井 ￥300.0*1</span></td>
+                    <td><span class="c_red">￥400</span></td>
+                    <td> - </td>
+                    <td class="text-center"><strong class="c_green">已取货</strong></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<script src="../bootstrap/js/bootstrap.js"></script>
+</body>
+</html>

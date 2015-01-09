@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<!--[if lt IE 9]>
+      <script src="/assets/html5.js"></script>
+      <script src="/assets/respond.js"></script>
+    <![endif]-->
+<script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="../bootstrap/js/bootstrap.js"></script>
+</head>
+<body>
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+    	<div class="row">
+            <div class="col-md-3">
+                <p class="logo">后勤服务系统</p>    
+            </div>
+            <div class="col-md-6">
+                <ul class="nav nav-pills nav-head">
+                    <li><a href="01餐饮服务-01菜品类别列表.html">餐饮服务</a></li>
+                    <li class='active'><a href="02订购管理-01商品类别列表.html">订购管理</a></li>
+                    <li><a href="03微服务.html">微服务</a></li>                    
+                    <li><a href="04部门管理.html">部门管理</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+            	<p class="text-right pt20">当前用户：admin 超级管理员 <a href="00登录.html">退出</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-2">
+        	<ul class="side_nav">
+            	<li><a href="#" class="side_nav_on">省局</a>
+                	<ul>
+                        <li><a href="02订购管理-01商品类别列表.html">商品类别列表</a> </li>
+                        <li><a href="02订购管理-02商品清单.html">商品清单</a> </li>
+                        <li class="active"><a href="02订购管理-03商品列表.html">商品列表</a> </li>
+                        <li><a href="02订购管理-04订购列表.html">订购列表</a> </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-10">
+            <div class="row border_bottom">
+            <p class="col-md-4 pull-right text-right"><button class="btn btn-primary mr10" data-toggle="modal" data-target="#myModal">添加</button><button class="btn btn-danger">删除</button></p>
+            </div>
+            <div class="row">
+            	<div class="col-md-2 text-right"><strong>日用品</strong></div>
+                <div class="col-md-10">
+                	<table class="table table-bordered">
+                    	<tr>
+                        	<th><input type="checkbox"> 全选</th>
+                            <th>序号</th>
+                            <th>商品名</th>
+                            <th>单价</th>
+                            <th>介绍</th>
+                        </tr>
+                        <tr>
+                        	<td><input type="checkbox"></td>
+                            <td>1</td>
+                            <td>毛巾</td>
+                            <td>￥1.5</td>
+                            <td>-</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="row">
+            	<div class="col-md-2 text-right"><strong>食品类</strong></div>
+                <div class="col-md-10">
+                	<table class="table table-bordered">
+                    	<tr>
+                        	<th><input type="checkbox"> 全选</th>
+                            <th>序号</th>
+                            <th>商品名</th>
+                            <th>单价</th>
+                            <th>介绍</th>
+                        </tr>
+                        <tr>
+                        	<td><input type="checkbox"></td>
+                            <td>1</td>
+                            <td>娃哈哈</td>
+                            <td>￥1.5</td>
+                            <td>-</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="row">
+            	<div class="col-md-2 text-right"><strong>食材类</strong></div>
+                <div class="col-md-10">
+                	<table class="table table-bordered">
+                    	<tr>
+                        	<th><input type="checkbox"> 全选</th>
+                            <th>序号</th>
+                            <th>商品名</th>
+                            <th>单价</th>
+                            <th>介绍</th>
+                        </tr>
+                        <tr>
+                        	<td><input type="checkbox"></td>
+                            <td>1</td>
+                            <td>木耳</td>
+                            <td>￥1.5</td>
+                            <td>-</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="row">
+            	<div class="col-md-2 text-right"><strong>其他</strong></div>
+                <div class="col-md-10">
+                	<table class="table table-bordered">
+                    	<tr>
+                        	<th><input type="checkbox"> 全选</th>
+                            <th>序号</th>
+                            <th>商品名</th>
+                            <th>单价</th>
+                            <th>介绍</th>
+                        </tr>
+                        <tr>
+                        	<td><input type="checkbox"></td>
+                            <td>1</td>
+                            <td>驱蚊器</td>
+                            <td>￥1.5</td>
+                            <td>-</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+</div>
+
+<!-- Modal 添加类别弹出-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">商品列表</h4>
+      </div>
+      <div class="modal-body">
+      	<dl class="dl-horizontal menu_top">
+            <dt>商品类型选择：</dt>
+            <dd class="mb0">
+            	<ul class="list-unstyled list-inline mb0">
+                	<li><input type="checkbox">日用品</li>
+                    <li><input type="checkbox">食品类</li>
+                    <li><input type="checkbox">食材类</li>
+                    <li><input type="checkbox">其他</li>
+                </ul>
+            </dd>
+        </dl>
+        <ul class="list-unstyled list-inline list_dish">
+            <li><input type="checkbox">乐吧薯片</li>
+            <li><input type="checkbox">薯条</li>
+            <li><input type="checkbox">面包</li>
+            <li><input type="checkbox">雪碧</li>
+            <li><input type="checkbox">可乐</li>
+            <li><input type="checkbox">瓜子</li>
+            <li><input type="checkbox">杨梅</li>
+            <li><input type="checkbox">可乐</li>
+            <li><input type="checkbox">瓜子</li>
+            <li><input type="checkbox">杨梅</li>
+            <li><input type="checkbox">口水娃花生</li>
+            <li><input type="checkbox">营养快线</li>
+            <li><input type="checkbox">恰恰瓜子</li>
+            <li><input type="checkbox">乐吧薯片</li>
+            <li><input type="checkbox">薯条</li>
+            <li><input type="checkbox">口水娃花生</li>
+            <li><input type="checkbox">营养快线</li>
+            <li><input type="checkbox">恰恰瓜子</li>
+            <li><input type="checkbox">乐吧薯片</li>
+            <li><input type="checkbox">薯条</li>
+            <li><input type="checkbox">面包</li>
+            <li><input type="checkbox">雪碧</li>
+            <li><input type="checkbox">可乐</li>
+            <li><input type="checkbox">瓜子</li>
+            <li><input type="checkbox">杨梅</li>
+            <li><input type="checkbox">口水娃花生</li>
+            <li><input type="checkbox">营养快线</li>
+            <li><input type="checkbox">恰恰瓜子</li>
+            <li><input type="checkbox">乐吧薯片</li>
+            <li><input type="checkbox">薯条</li>
+            <li><input type="checkbox">面包</li>
+            <li><input type="checkbox">雪碧</li>
+            <li><input type="checkbox">可乐</li>
+            <li><input type="checkbox">瓜子</li>
+            <li><input type="checkbox">杨梅</li>
+            <li><input type="checkbox">口水娃花生</li>
+            <li><input type="checkbox">营养快线</li>
+            <li><input type="checkbox">恰恰瓜子</li>
+            
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+        <button type="button" class="btn btn-primary">确定</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

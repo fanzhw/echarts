@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<!--[if lt IE 9]>
+      <script src="/assets/html5.js"></script>
+      <script src="/assets/respond.js"></script>
+    <![endif]-->
+<script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="../bootstrap/js/bootstrap.js"></script>
+</head>
+<body>
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+    	<div class="row">
+            <div class="col-md-3">
+                <p class="logo">后勤服务系统</p>    
+            </div>
+            <div class="col-md-6">
+                <ul class="nav nav-pills nav-head">
+                    <li><a href="01餐饮服务-01菜品类别列表.html">餐饮服务</a></li>
+                    <li><a href="02订购管理-01商品类别列表.html">订购管理</a></li>
+                    <li class='active'><a href="03微服务.html">微服务</a></li>                    
+                    <li><a href="04部门管理.html">部门管理</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+            	<p class="text-right pt20">当前用户：admin 超级管理员 <a href="00登录.html">退出</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-2">
+        	<ul class="side_nav">
+            	<li><a href="#" class="side_nav_on">微服务</a>
+                	<ul>
+                        <li class="active"><a href="#">服务记录</a> </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-10">
+        	<div class="search well">
+            	<ul class="row list-inline">
+                	<li class="col-md-2">服务类别：<select class="form-control"><option>表扬</option><option>投诉</option><option>建议</option><option>其他</option></select></li>
+                    <li class="col-md-3">操作状态：<select class="form-control"><option>已回复</option><option>未回复</option></select></li>
+                    <li class="col-md-3">开始时间：<select class="form-control"><option>2014年9月1日</option></select></li>
+                    <li class="col-md-3">结束时间：<select class="form-control"><option>2014年9月2日</option></select></li>
+                    <li class="col-md-1"><button class="btn btn-warning">搜索</button></li>
+                </ul>
+            </div>
+            <div class="row">
+            	<h4 class="col-md-2"><strong>详情记录列表</strong></h4>
+            </div>
+            <table class="table comtable">
+            	<tr>
+                	<th>序号</th>
+                    <th>姓名</th>
+                    <th>部门</th>
+                    <th>时间</th>
+                    <th>服务类别</th>
+                    <th>留言内容</th>
+                    <th>操作</th>
+                </tr>
+                <tr>
+                	<td>1</td>
+                    <td>张三</td>
+                    <td>部门1</td>
+                    <td>2014.09.12 <br />
+08:12</td>
+                    <td>表扬</td>
+                    <td>菜烧地非常好吃！</td>
+                    <td><button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">回复</button></td>
+                </tr>
+                <tr>
+                	<td>1</td>
+                    <td>张三</td>
+                    <td>部门1</td>
+                    <td>2014.09.12 <br />
+08:12</td>
+                    <td>表扬</td>
+                    <td>-</td>
+                    <td>谢谢支持，我们会继续努力！</td>
+                </tr>
+                <tr>
+                	<td>1</td>
+                    <td>张三</td>
+                    <td>部门1</td>
+                    <td>2014.09.12 <br />
+08:12</td>
+                    <td>表扬</td>
+                    <td>-</td>
+                    <td>谢谢支持，我们会继续努力！</td>
+                </tr>
+                <tr>
+                	<td>1</td>
+                    <td>张三</td>
+                    <td>部门1</td>
+                    <td>2014.09.12 <br />
+08:12</td>
+                    <td>表扬</td>
+                    <td>菜烧地非常好吃！</td>
+                    <td><button class="btn btn-primary btn-sm">回复</button></td>
+                </tr>
+                <tr>
+                	<td>1</td>
+                    <td>张三</td>
+                    <td>部门1</td>
+                    <td>2014.09.12 <br />
+08:12</td>
+                    <td>表扬</td>
+                    <td>-</td>
+                    <td><button class="btn btn-primary btn-sm">回复</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 添加类别弹出-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">微服务回复</h4>
+      </div>
+      <div class="modal-body">
+        <form class="form-horizontal" role="form">
+          <div class="form-group">
+            <label for="inputEmail3" class="col-sm-3 control-label">回复内容:</label>
+            <div class="col-sm-8">
+              <textarea class="form-control" rows="3"></textarea>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+        <button type="button" class="btn btn-primary">确定</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>

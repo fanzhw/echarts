@@ -1,0 +1,179 @@
+body {
+	padding-top: 90px;
+	font-family: Arial, Microsoft YaHei;
+}
+
+.navbar-default {
+	background-color: #eee;
+}
+
+.pt20 {
+	padding-top: 20px;
+}
+
+.mr10 {
+	margin-right: 10px;
+}
+
+.mb20 {
+	margin-bottom: 20px;
+}
+
+.mb0 {
+	margin-bottom: 0!important;
+}
+
+.logo {
+	font-size: 24px;
+	color: #428bca;
+}
+
+.navbar-default {
+	padding: 10px;
+}
+
+.search .form-control {
+	width: auto;
+	display: inline;
+}
+
+.c_red {
+	color: #ee3e10;
+}
+
+.c_green{
+	color:#48a305;
+}
+
+.comtable th {
+	background-color: #f5f5f5;
+}
+
+.side_nav {
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 10px 0;
+	list-style: none;
+	min-height: 400px;
+}
+
+.side_nav li a {
+	display: block;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-bottom: 1px solid #ddd;
+	background: url(../images/arrow.png) no-repeat 140px 10px;
+}
+
+.side_nav li a:hover {
+	text-decoration: none;
+}
+
+.side_nav li a.side_nav_on {
+	background-color: #ebebeb;
+}
+
+.side_nav li ul {
+	padding: 10px;
+}
+
+.side_nav li ul li {
+	list-style: inside circle;
+	line-height: 24px;
+}
+
+.side_nav li ul li a {
+	border: none;
+	padding: 0;
+	font-size: 14px;
+	background: none;
+	display: inline;
+	padding: 3px 5px;
+	border-radius: 3px;
+}
+
+.side_nav li ul li.active a {
+	color: #fff;
+	background-color: #428bca;
+}
+
+.dl-horizontal dd {
+	margin-bottom: 10px;
+}
+
+.menu_top {
+	background-color: #f5f5f5;
+	border: 1px solid #eee;
+	padding: 10px;
+}
+
+.menu_top dt {
+	width: 100px;
+}
+
+.menu_top dd {
+	margin-left: 110px;
+}
+
+.list_dish li {
+	width: 100px;
+	margin-right: 5px;
+	line-height: 30px;
+	padding: 0;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.menu_top_02 {
+	background-color: #fff;
+	padding: 0;
+}
+
+.menu_top_02 dt {
+	width: 80px;
+}
+
+.menu_top_02 dd {
+	margin-left: 85px;
+}
+
+.border_bottom {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+.btn-submit {
+	padding: 6px 30px;
+}
+
+.login_bg {
+	background-color: #eee;
+}
+
+.login_contaner {
+	width: 425px;
+	margin: 120px auto 0;
+}
+
+.login_header {
+	padding: 0 20px;
+	line-height: 50px;
+	height: 50px;
+	vertical-align: middle;
+	margin-bottom: 10px;
+	background-color: #434852;
+	border-radius: 5px;
+	text-shadow: 1px 1px 2px #333;
+	font-size: 16px;
+	color: #FFF;
+}
+
+.login_content {
+	padding: 20px;
+	background: #FFF;
+	border: 1px solid #DDD;
+	border-radius: 5px;
+	box-shadow: 0 0 6px rgba(0,0,0,.10);
+}
